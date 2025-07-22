@@ -6,4 +6,4 @@ A new modern styled test of a dragggable object, made by using HTML, CSS, and Ja
 
 ---
 
-### See the website [here](https://tsimurkurchyshyn.github.io/Drag-N-Drop-Project/).
+### See the website [here](https://tsimurkurchyshyn.github.io/Board-Project/).
