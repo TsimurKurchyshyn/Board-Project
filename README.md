@@ -1,8 +1,8 @@
-# Drag N Drop Project
+# Board Project
 
 ---
 
-A new modern styled test of a dragggable object, made by using HTML, CSS, and JavaScript.
+A new modern styled of a canvas made from little squares. By hovering a mouse on them they will glow in diverse colors, made by using HTML, CSS, and JavaScript.
 
 ---
 
