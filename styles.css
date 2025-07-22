@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.text_container {
+  text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  text-shadow: 0 0 2px #fff, 0 0 10px #fff;
+  margin-right: 100px;
+  text-transform: uppercase;
+  animation: div_animation1 1s forwards;
+  animation-delay: 10s;
+}
+
+.text_container-first {
+  opacity: 0;
+  animation: text_animation1 forwards;
+  animation-delay: 1s;
+}
+
+.text_container-second {
+  opacity: 0;
+  animation: text_animation1 forwards;
+  animation-delay: 3s;
+}
+
+.text_container-third {
+  opacity: 0;
+  animation: text_animation1 forwards;
+  animation-delay: 5s;
+}
+
+.text_container-fourth {
+  opacity: 0;
+  animation: text_animation1 forwards;
+  animation-delay: 7s;
+}
+
+@keyframes text_animation1 { 
+  100% { 
+  opacity: 1;
+  } 
+}
+
+@keyframes div_animation1 {
+  25% { 
+  opacity: 0.75;
+  } 
+
+  50% { 
+  opacity: 0.5;
+  }
+
+  75% { 
+  opacity: 0.25;
+  }
+
+  100% { 
+  opacity: 0;
+  display: none;
+  } 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+
+.square {
+  width: 16px;
+  height: 16px;
+  background-color: #1d1d1d;
+  margin: 2px;
+  box-shadow: 0 0 2px #000;
+  transition: 2s ease;
+}
+
+.square:hover {
+  transition-duration: 0s;
+}
